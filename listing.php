@@ -7,13 +7,13 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th scope="col">ID</th>
+      <th width="20" scope="col">ID</th>
       <th scope="col">ChartTimeFlame</th>
       <th scope="col">DisplayContents</th>
       <th scope="col">Condition</th>
       <th scope="col">Memo</th>
-      <th scope="col">Edit</th>
-      <th scope="col">Delete</th>
+      <th width="50" scope="col">Edit</th>
+      <th width="50" scope="col">Delete</th>
     </tr>
   </thead>
   <tbody>
@@ -23,8 +23,8 @@
       <td>Otto</td>
       <td>@mdo</td>
       <td></td>
-      <td><button type="button" class="btn btn-primary">Edit</button></td>
-      <td><button type="button" class="btn btn-danger">Delete</button></td>
+      <td><a href="add-listing.php?id=1" class="btn btn-primary">Edit</a></td>
+      <td><button type="button" class="btn btn-danger" onclick="javascript: return confirm('Are you sure to delete?');" >Delete</button></td>
     </tr>
     <tr>
       <th scope="row">2</th>
@@ -32,8 +32,8 @@
       <td>Thornton</td>
       <td>@fat</td>
       <td></td>
-      <td><button type="button" class="btn btn-primary">Edit</button></td>
-      <td><button type="button" class="btn btn-danger">Delete</button></td>
+      <td><a href="add-listing.php?id=2" class="btn btn-primary">Edit</a></td>
+      <td><button type="button" class="btn btn-danger" onclick="javascript: return confirm('Are you sure to delete?');">Delete</button></td>
     </tr>
     <tr>
       <th scope="row">3</th>
@@ -41,8 +41,8 @@
       <td>the Bird</td>
       <td>@twitter</td>
       <td></td>
-      <td><button type="button" class="btn btn-primary">Edit</button></td>
-      <td><button type="button" class="btn btn-danger">Delete</button></td>
+      <td><a href="add-listing.php?id=3" class="btn btn-primary">Edit</a></td>
+      <td><button type="button" class="btn btn-danger" onclick="javascript: return confirm('Are you sure to delete?');">Delete</button></td>
     </tr>
   </tbody>
 </table>
