@@ -27,8 +27,9 @@ class Condition {
         
     }
     
-    function Edit($id) {
-        
+    function Edit($id, $set) {
+        global $db;
+        $db->update( $this->table, $set, '`id` = ' . $id );
     }
     
     function Delete($id) {
