@@ -8,7 +8,7 @@ include('function.php');
 //include 'db/db.php';
 	if(isset($_POST['submit'])){
 		extract($_POST);
-		$set = "`ChartTimeFlame` = '".$ChartTimeFlame."',`DisplayContents` = '".$DisplayContents."',`Condition` = '".$Condition."',`Memo` = '".$Memo."',`DateTime` = '".$DateTime."'";
+		$set = "`ChartTimeFlame` = '".$ChartTimeFlame."',`DisplayContents` = '".$DisplayContents."',`Condition` = '".$Condition."',`Memo` = '".$Memo."'";
 
 		if($id){
 			$result = $db->update("listing",$set,"id = '$id'");

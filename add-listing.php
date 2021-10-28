@@ -23,9 +23,7 @@ if (isset($_GET['id'])) {
 			<input type="text" id="Condition" name="Condition" required value="<?php echo $result->Condition ?>"><br>
 			<label for="Memo">Memo</label><br>
 			<input type="text" id="Memo" name="Memo" required value="<?php echo $result->Memo ?>"><br>
-			<label for="DateTime">DateTime</label><br>
-			<input type="date" id="DateTime" name="DateTime" required value="<?php echo date("Y-m-d", strtotime($date)); ?>"><br><br>
-			<input type="hidden" name="id" value="<?php echo $id?>">
+			<input type="hidden" name="id" value="<?php echo $id?>"><br>
 			<input type="submit" name="submit" class="btn btn-primary" value="<?php echo $page_button?>" > 
 			<a href="listing.php" class="btn btn-primary">Back</a>
 		</form>
