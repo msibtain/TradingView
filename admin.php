@@ -1,6 +1,6 @@
 <?php include('header.php'); 
 
-
+global $db;
 $results = $db->select("listing","*");
 ?>
 

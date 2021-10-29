@@ -8,7 +8,7 @@ $this->con = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD) or die("Can't con
 mysqli_select_db($this->con, DB_DATABASE);
 
 # set Timezone of Mysql;
-$this->query("SET time_zone = '".MYSQL_TIMEZONE."'") or die($db->error());
+$this->query("SET time_zone = '".MYSQL_TIMEZONE."'") or die($this->error());
     
 $this->set_character();
 

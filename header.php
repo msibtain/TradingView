@@ -13,9 +13,11 @@
 </head>
 <body>
 <div class="header">
-   <div class="row">
-    <div class="col-sm-12 text-center">
-        <img src="images/ultrabit.png" height="60">
-    </div>    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <img src="images/ultrabit.png" height="60">
+            </div>    
+        </div>
     </div>
 </div>
